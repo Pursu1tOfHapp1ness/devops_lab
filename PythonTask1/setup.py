@@ -8,4 +8,3 @@ setup(
     author="Pavel Savchenko",
     description="Python Task #1",
 )
-
