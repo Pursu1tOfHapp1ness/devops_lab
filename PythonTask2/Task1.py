@@ -3,7 +3,7 @@ if __name__ == "__main__":
     StudentMarks = dict()
     N = int(input("Enter count of students = "))
     for i in range(N):
-        InputInf = str(input("Write line with student Name and Marks: ")).split(' ')
+        InputInf = str(input("Write student Name and Marks: ")).split(' ')
         InputName, InputMarks = InputInf[0], map(float, InputInf[1:])
         StudentMarks[InputName] = InputMarks
     YourChoice = input("Needed name of student: ")
