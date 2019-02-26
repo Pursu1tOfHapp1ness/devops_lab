@@ -58,4 +58,3 @@ class MonitorUtil:
 
 if __name__ == "__main__":
     MonitorUtil.monitoring()
-
