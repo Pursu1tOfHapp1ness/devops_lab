@@ -39,13 +39,13 @@ class MonitorUtil:
                   "Number of packets received = %s\n" % net_inf_packets_recv,
                   "Total number of errors (receiving) = %s\n" % net_inf_errin,
                   "Total number of errors (sending) = %s\n" % net_inf_errout,
-                  "Total number of incompacks(dropped) = %s\n" % net_inf_dropin,
+                  "Total number of inpacks(dropped) = %s\n" % net_inf_dropin,
                   "Total number of outpacks(dropped) = %s\n" % net_inf_dropout,
                   "Number of reads = %s\n" % io_inf_read_count,
                   "Number of writes = %s\n" % io_inf_write_count,
                   "Number of Gbytes read = %s\n" % io_inf_read_bytes,
                   "Number of Gbytes written = %s\n" % io_inf_write_bytes,
-                  "Time spent reading from disk(sec) = %s\n" % io_inf_read_time,
+                  "Time spent disk reading (sec) = %s\n" % io_inf_read_time,
                   "Time spent writing to disk(sec)= %s\n" % io_inf_write_time]
         time_stamp = time.strftime("%a, %d %b %Y %H:%M:%S", time.localtime())
         snap_print = "SNAPSHOT %s : %s\n" % (str(MonitorUtil.temp), time_stamp)
