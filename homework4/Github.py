@@ -11,10 +11,7 @@ ID = config["GitStatsId"]["GitStatsId"]
 GitName = config["YourGitUsername"]["GitUsername"]
 GitCredentials = getpass.getpass("Enter your github profile credentials: ")
 
-URL1 = "https://api.github.com/" + "repos/" + \
-      NameOfUser + "/" + \
-      NameOfRepo + "/" + \
-      "pulls/" + str(ID)
+URL1 = "https://api.github.com/repos/" + NameOfUser + "/" + NameOfRepo + "/" + "pulls/" + str(ID)
 data = requests.get(URL1, auth=(GitName, GitCredentials)).json()
 print("URL of chosen repo: %s" % str(data['url']))
 print("User login of chosen ID: %s" % str(data['user']['login']))
