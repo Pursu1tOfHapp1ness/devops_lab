@@ -16,21 +16,4 @@ Number of Gbytes read = 32.543479919433594
 Number of Gbytes written = 10.434600830078125
 Time spent reading from disk (in seconds) = 35.745
 Time spent writing to disk (in seconds) = 8.553
-SNAPSHOT 1 : Thu, 28 Feb 2019 16:42:17
-Total memory = 3.86328125 GB
-Used memory = 2.9320144653320312 GB
-CPU Load (in percents) = 10.1
-Number of Gbytes sent = 0.03121662139892578
-Number of Gbytes sent = 0.6008992390707135
-Number of packets sent = 304505
-Number of packets received = 500273
-Total number of errors while receiving = 0
-Total number of errors while sending = 0
-Total number of incoming packets which were dropped = 0
-Total number of outgoing packets which were dropped = 0
-Number of reads = 989390
-Number of writes = 346253
-Number of Gbytes read = 32.62582302093506
-Number of Gbytes written = 10.660625457763672
-Time spent reading from disk (in seconds) = 35.794
-Time spent writing to disk (in seconds) = 8.599
+
